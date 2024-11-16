@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#09f">
+    <title>Online Fair</title>
+
+
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/normalize.css">
+
+ <link rel="icon" href="/assets/icon/favicon.ico" type="image/x-icon"/>
+
+<!-- Fuentes google fonts -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+
+<!--FIN FUENTES GOOGLE FONTS-->
+
+</head>
+<body>
+    <header>        
+        <nav class="navbar">
+            <div class="logo">
+                <img  width="70" height="70" src="images/logo.jpg" alt="logo">             
+            </div>
+            
+            <div class="search-bar">
+              <input type="text" placeholder="Buscar productos" />
+              <img src="assets/icon/search_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" class="icon search" alt="">
+                        
+            </div>     
+
+            <div class="nav-link">
+                <a class="link" href="#inicio" aria-label="Ir a inicio">Inicio</a>            
+                <a class="link" href="#Productos" aria-label="ver productos">Productos</a>
+                <a class="link" href="#contacto" aria-label="ver contacto">Contacto</a>            
+               <img src="assets/icon/shopping_cart_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" class="icon carrito" alt="">
+
+              </div>
+        </nav>
+
+    </header>
+    <main>        
+      
+        <!-- Sección de Productos -->
+  <section id="productos">
+    <h2>Productos Destacados</h2>
+    <div class="productos-container">
+
+      <div class="card">      
+        <img src="/images/productos/remeras/remera-blanca.jfif" alt="Remera Lisa Blanca">
+        <h2>Remera Lisa Blanca</h2>
+        <p class="price">$9500</p>
+        <button class="btn-añadir-carrito">Añadir al carrito</button>  
+      </div>
+
+      <div class="card">      
+        <img src="/images/productos/celular/a54.jfif" alt="Celular Samsung A34 5g">
+        <h2>Celular Samsung A34 5G</h2>
+        <p class="price">$350.000</p>
+        <button class="btn-añadir-carrito">Añadir al carrito</button>  
+      </div>
+
+      <div class="card">        
+        <img src="/images/productos/bicicletas/Bicicletamtb29Raider Fortis 21v.jpg" alt="Bicicleta mtb 29 Raider Fortis 21v">
+        <h2>Bicicleta mtb 29" Raider Fortis 21v</h2>
+        <p class="price">$350.000</p>
+        <button class="btn-añadir-carrito">Añadir al carrito</button> 
+      </div>
+
+      <div class="card">
+        <img src="/images/productos/cartera/taylor.jfif" alt="Cartera Taylor">
+        <h2>Cartera Taylor</h2>
+        <p class="price">$77.990</p>       
+        <button class="btn-añadir-carrito">Añadir al carrito</button>
+      </div>  
+
+      <!--REPITO-->
+      <div class="card">      
+        <img src="/images/productos/remeras/remera-blanca.jfif" alt="Remera Lisa Blanca">
+        <h2>Remera Lisa Blanca</h2>
+        <p class="price">$9500</p>
+        <button class="btn-añadir-carrito">Añadir al carrito</button>  
+      </div>
+
+      <div class="card">      
+        <img src="/images/productos/celular/a54.jfif" alt="Celular Samsung A34 5g">
+        <h2>Celular Samsung A34 5G</h2>
+        <p class="price">$350.000</p>
+        <button class="btn-añadir-carrito">Añadir al carrito</button>  
+      </div>
+
+      <div class="card">        
+        <img src="/images/productos/bicicletas/Bicicletamtb29Raider Fortis 21v.jpg" alt="Bicicleta mtb 29 Raider Fortis 21v">
+        <h2>Bicicleta mtb 29" Raider Fortis 21v</h2>
+        <p class="price">$350.000</p>
+        <button class="btn-añadir-carrito">Añadir al carrito</button> 
+      </div>
+
+      <div class="card">
+        <img src="/images/productos/cartera/taylor.jfif" alt="Cartera Taylor">
+        <h2>Cartera Taylor</h2>
+        <p class="price">$77.990</p>       
+        <button class="btn-añadir-carrito">Añadir al carrito</button>
+      </div>  
+
+
+      <!-- FIN REPITO-->
+      
+    </div>
+  </section>
+  <button class="btn-verMas">Ver más productos</button>
+
+  <!-- Sección de Reseñas -->
+  <section id="resenas">
+    <h2>Reseñas</h2>
+    <div class="resenas-container">
+      <div class="reseña">Reseña 1</div>
+      <div class="reseña">Reseña 2</div>
+      <div class="reseña">Reseña 3</div>
+      <div class="reseña">Reseña 4</div>
+    </div>
+  </section>
+
+  <!-- Sección de Contacto -->
+ 
+       
+    <section id="contacto">
+        <article>
+            <h3>Formulario de contacto</h3>
+            <form action="/submit" method="post">
+                <fieldset>            
+                    <legend>Información personal</legend>
+
+                        <label for="nombre">Nombre: </label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+
+                        <label for="apellido">Apellido: </label>
+                        <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido">
+
+                        <label for="telefono">Telefono: </label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="Ingrese su telefono" required>
+            
+                        <label for="mail">Mail: </label>
+                        <input type="email" id="mail" name="mail" placeholder="Ingrese su mail" required>
+
+                        <label for="mensaje">Mensaje: </label>
+                        <textarea  id="mensaje" name="mensaje" rows="2" placeholder="Ingrese su mensaje" required>
+                        </textarea>
+                </fieldset>
+
+                        <button >Enviar contacto</button>
+
+            </form>
+        </article>
+    </section>
+    </main>
+    <footer>&copy; 2024 Fernandez Gaston </footer>
+</body>
+
+</html>
